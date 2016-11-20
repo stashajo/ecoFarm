@@ -1,0 +1,753 @@
+
+.mainContent .nav-pills{
+    width: 45%;
+    margin: 0 auto;
+}
+
+
+
+.mainContent .nav-pills > li > a{
+    color:  #777;
+    background-color: #fff;
+}
+
+.mainContent .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: #fff;
+    background-color: #95c300;
+}
+
+
+.mainContent .nav > li > a:hover {
+    text-decoration: none;
+    background-color: #95c300;
+    color:   #fff;
+}
+
+.mainContent{
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+
+.mainContent .tab-content h2 {
+
+    margin-top: 10px;    
+    margin-left: 0px;
+    font-family: 'Roboto','sans-serif';
+    font-size: 35px;
+    color: #95c300;
+    font-weight: 200;
+    text-align: center;
+}
+
+.mainContent .tab-content p {
+    font-family: 'Roboto';
+    font-size: 14px;
+    color:  #d5d5d5;
+    text-align: center;
+}
+
+.mainContent .tab-content p span{
+    color:   #777;
+}
+
+.mainContent .tab-content a{
+    color: #95c300;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+}
+
+.shop a:hover, a:focus {
+
+    text-decoration: none;
+}
+
+
+div .first {
+    box-shadow: 0px 4px 8px   rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    margin-left: 5px;
+    margin-right: 5px;       
+}
+
+
+div.first span.required{
+    color:#ff0000;
+    right: 0px;
+}
+
+.first figure{
+    height: 50px; 
+    position: relative;
+    overflow: hidden;
+}
+.first figure img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+} 
+#mojeKupovine .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    font-family: 'Roboto';
+    color:  #777;
+    font-weight: 500;
+    text-align: center;
+}
+button#history{
+    background-color: #95c300;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    border: 0;
+    box-shadow: 0px 4px 8px   rgba(0, 0, 0, 0.1);
+
+}
+.messages h4{
+    font-family: 'Roboto';
+    color: #eb9316;
+    font-size: 14px;
+}
+.messages h4 span{
+    color:  #d5d5d5;
+}
+
+.messages p{
+    font-family: 'Roboto';
+    color:  #777;
+    font-size: 14px!important;
+    border-bottom: 1px solid #d5d5d5;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.mainContent textArea{
+    width: 100%;
+    border: 1px solid #d5d5d5;
+}
+
+#hiddenDiv3{
+    display:none;
+}
+
+.shop{
+    margin-bottom: 100px;
+}
+
+
+.shop .nav-pills > li {
+    background-color:   #d5d5d5;
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.shop .nav-pills > li {
+    background-color:   #d5d5d5;
+
+}
+
+.shop .nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color:  #95c300;
+    border-radius: 0;
+}
+
+.shop .nav-pills > li >a{
+    color: white;
+    transition: 1s ease;
+}
+
+.shop h2{
+    font-family: 'Roboto','sans-serif';
+    font-size: 35px;
+    color: #95c300;
+    font-weight: 200;
+    margin-bottom: 50px;
+
+}
+
+
+.shop .table{
+    border-left: none;
+    border-right: none;
+}
+
+
+.shop .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    text-align: center;
+    font-family: 'Roboto','sans-serif';
+    color:  #777;
+}
+
+
+.shop table td a {
+    color:  #95c300;
+}
+
+.shop p {
+    font-style: italic;
+    text-align:  end;
+}
+
+.shop table td figure {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    background: #e7e7e7;
+    vertical-align:  middle;
+}
+
+.shop table td figure a img {
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.shop table td figure a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+figure a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    max-height: 100%;
+    display: block;
+}
+
+.shop table td input:focus {
+    border: 2px solid #d5d5d5;
+    box-shadow: 0px 4px 8px   rgba(0, 0, 0, 0.1);
+}
+.shopHidden{
+    display:none;
+}
+.shopHidden table td figure {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    background: #e7e7e7;
+    vertical-align:  middle;
+
+}
+
+.shopHidden table td figure a img {
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.shopHidden table td figure a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.shopHidden tr td{
+    border: none!important;
+
+}
+.shopHidden table {
+    border-bottom: 1px solid #95c300!important;
+    border:none;
+}
+.shopHidden table a{
+    color:  #95c300;
+    text-decoration: none;
+}
+.shopHidden .btn.discount{
+    background-color:  #95c300;
+    color:  #fff;
+    border-radius: 4px;
+}
+
+
+
+
+.shopHidden .form-control{
+    width: 90%;
+}
+
+
+.shop .table .sum > thead > tr, .table > tbody > tr, .table > tfoot > tr, .table > thead > tr > td:first-child, .table > tbody > tr > td:first-child, .table > tfoot > tr > td:first-child {
+    text-align: left;
+}
+.shop .table .sum > thead > tr, .table > tbody > tr, .table > tfoot > tr, .table > thead > tr > td:last-child, .table > tbody > tr > td:last-child, .table > tfoot > tr > td:last-child {
+    text-align: right;
+}
+
+input.form-control:focus, select.form-control:focus, textarea.form-control:focus {
+    border-color: #c9c9c9;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(201,201,201,.9);
+}
+.disc{
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.shopHidden .sum tr:last-of-type{
+    border-bottom: 1px solid  #95c300 ;
+}
+.shopHidden .sum tr:first-of-type{
+    border-top: 1px solid  #95c300 ;
+}
+
+.shopHidden .sum tfoot span{
+    font-size: 25px;
+    font-weight: bold;
+}
+.shopHidden .sum tfoot tr td{
+    vertical-align:  middle;
+}
+.shopHidden .sum tfoot td:first-child{
+    font-size: 20px;
+    font-weight: bold;
+}
+.product_table .badge {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background:  #eb9316;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    line-height: 20px;
+    border-radius: 50%;
+}
+
+.orderForm h4{
+    font-family: 'Roboto';
+    color: #95c300;
+    font-weight: 200;    
+}
+.orderForm p{
+    font-family: 'Roboto';
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+.orderForm a{
+    font-family: 'Roboto';
+    color:  #95c300;
+    text-decoration: none;
+}
+.ordering {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    background: url(style-images/arrow_green.jpg) no-repeat right;
+    background-size: 20px;
+}
+
+.checkbox [type="checkbox"]:checked + span {
+    background:  #95c300;
+}
+
+.checkbox label input[type="checkbox"] ~ span {
+    float: left;
+    margin: 0 0 0 8px;
+    font-size: 15px;
+    font-family: 'Roboto';
+    line-height: 16px;
+}
+
+.checkbox label input[type="checkbox"] + span {
+    height: 15px;
+    width: 15px;
+    float: left;
+    border: 1px solid #000;
+}
+.checkbox label {
+    padding-left: 0;
+}
+.checkbox label input {
+    width: 15px;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+}
+.shopFirst{
+    margin-bottom: 50px;
+}
+
+
+.orderForm .form-control {
+    margin-bottom: 40px;
+}
+
+.orderForm a.backToChart {
+    float: left;
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.orderForm a.backToChart span {
+    position: relative;
+    margin-right: 5px;
+    left: 0;
+    transition: ease 1s all;
+    background: #fff;
+    line-height: 35px;
+    display: inline-block;
+
+
+}
+
+
+.orderForm a.backToChart:hover span {
+    position: relative;
+    left: -5px;
+    transition: ease 1s all;
+
+}
+
+
+
+
+.orderForm button.btn-default {
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    background:   #c9c9c9;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    padding: 10px 35px;
+    transition: 1s ease;
+}
+.orderForm .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+    color:   #fff;
+    background-color: #95c300;
+}
+.orderForm{
+    border-bottom: 1px solid  #95c300;
+}
+
+.conditions li a{
+    font-size: 14px;
+    line-height: 1.42857143;
+    color:  #95c300;
+    text-decoration: none;
+
+}
+.conditions li{
+    width: 33%;
+}
+.orderSummary{
+    display: block;
+    margin-bottom: 40px;
+}
+.orderSummary a{
+    color:  #95c300;
+    text-decoration: none;
+}
+
+
+button.show{
+    border:none;
+    background:url(style-images/arrow_green.jpg) no-repeat;
+    background-position:right 0px;
+    cursor:pointer;
+    width: 200px;
+}
+button.hide{
+    border:none;
+    background:url(style-images/arrow_green_up.jpg) no-repeat;
+    background-position:right 0px;
+    cursor:pointer;
+    width: 200px;
+}
+
+.shopFirst a span.pull-right {
+    margin-top: -20px;
+} 
+.shopHidden .btn.discount {
+    margin-left: -25px;
+}
+.orderForm .radio label input[type="radio"]:checked:not(old) + span {
+    background:   #95c300!important;
+}
+.orderForm input[type="radio"]:not(old) + span {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    float: left;
+    background: #fff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+.orderForm .radio label input[type="radio"] ~ span {
+    float: left;
+    margin: 0 0 0 8px;
+    font-size: 14px;
+    line-height: 16px;
+}
+.orderForm .radio label input {
+    width: 15px;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+}
+.orderForm .shipping {
+    border: 1px solid #c9c9c9;
+    padding: 10px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+.orderForm p:first-of-type{
+    margin-top: 20px;
+}
+.orderForm p{
+
+    font-size: 14px;
+    color:  #c9c9c9;
+    font-family: 'Roboto';
+}
+.panel-group a{
+    color:  #777;
+}
+div.orderForm{
+    border: 1px solid  #95c300;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+div.orderForm a{
+    color:  #c9c9c9;
+}
+
+div.confirmation{
+    border: 1px solid  #95c300;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+div.confirmation h5{
+    margin: 20px 0;
+}
+.confirmation h4 {
+    font-family: 'Roboto';
+    color: #95c300;
+    font-weight: 200;
+}
+div.hello{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.hello h3 {
+    font-family: 'Roboto';
+    color:  #777;
+    font-weight: 200;
+}
+.error h1{
+    font-size: 150px;
+    font-family: 'Roboto';
+    color:  #eb9316;
+    
+
+}
+.error h4{
+    font-family: 'Roboto';
+    color:  #777;
+    font-size: 50px;
+    
+}
+.error a{
+    font-family: 'Roboto';
+    color:   #95c300;
+}
+.error{
+    margin-bottom: 100px;
+}
+.back{
+    text-align:  center;
+}
+
+
+
+.shoppingHistory table td figure  img {
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.shoppingHistory table td figure  {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.shoppingHistory table td figure {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    background: #e7e7e7;
+    vertical-align: middle;
+}
+
+
+.shoppingHistory table > tbody > tr > td:last-child{
+    text-align:  center!important;
+}
+
+
+
+
+
+@media (min-width: 768px) {
+
+    .mainContent .tab-content h2 {
+         
+        margin-left: 50px;
+        text-align: left;
+    }
+    .mainContent .nav-pills{
+        width: 100%;
+        margin: 0;
+    }
+
+    .shop table td figure {
+        width: 100px;
+        height:100px;
+    }
+    .shopHidden table td figure {
+        width: 100px;
+        height: 100px;
+
+    }
+    .conditions li{
+        width: 30%;
+    }
+
+}
+
+
+
+
+@media (min-width: 992px) {
+    .orderSummary{
+        display: none;
+    }
+    .mainContent .tab-content p {
+        font-size: 18px;
+        text-align:left;
+    }
+
+
+    .mainContent .tab-content a{
+        font-size: 18px;
+        text-align: left;
+    }
+    .shop table td figure {
+        width: 50px;
+        height: 50px;
+        border: 1px solid #ccc;
+        background: #e7e7e7;
+    }
+
+    .shopHidden{
+        display:block;
+    }
+    .product_table .badge {
+        position: absolute;
+        top: -8px;
+        right: -8px;
+        background:  #eb9316;
+        color: #fff;
+        width: 30px;
+        height: 30px;
+        padding: 0;
+        line-height: 30px;
+        border-radius: 50%;
+    }
+    .orderForm button.btn-default[type="button"] {
+        display: inline-block;
+        float: right;
+        width: auto;
+    }
+    .orderForm a.backToChart {
+        width: auto;
+    }
+    .error h1{
+    font-size: 250px;
+    font-family: 'Roboto';
+    color:  #eb9316;
+
+}
+.error h4{
+    font-family: 'Roboto';
+    color:  #777;
+    margin-top: 100px;
+}
+.back{
+    text-align:  left;
+}
+
+
+}
+
+
+
+
+
+
+@media (min-width: 1200px) {
+
+    .conditions li{
+        width: 33%;
+    }
+    .conditions li a{
+        font-size: 14px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
